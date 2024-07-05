@@ -2,6 +2,16 @@ import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 
+const  initialState:Persona{
+    nombre: string;
+    apellido: string;
+    rut: string;
+    correo: string;
+    fechanacimiento: string;
+    edad: number;
+
+}
+
 export const Pagina2 = () => {  //useState tiene el valor primario del estado;guarda lo que sea e infiere 
     const [nombre, setNombre] = useState("Joselito")  //un estado crea una variable que se puede cambiar en el tiempo set->cambiar la variable o el valor al estado
     const [apellido, setApellido] = useState("Vaca")
