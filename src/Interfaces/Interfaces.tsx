@@ -6,5 +6,6 @@ interface Persona{
     correo: string;
     fechanacimiento: string;
     edad: number;
+    key?: string,   //? es porque no la posee
 
 }
